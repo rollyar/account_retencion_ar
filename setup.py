@@ -52,10 +52,10 @@ if minor_version % 2:
 else:
     branch = series
 
-download_url = 'https://github.com/tryton-ar/account_retencion_ar/tree/%s' % branch
+download_url = 'https://github.com/rollyar/account_retencion_ar/tree/%s' % branch
 
 LINKS = {
-    'trytonar_account_voucher_ar': ('git+https://github.com/tryton-ar/'
+    'trytonar_account_voucher_ar': ('git+https://github.com/rollyar/'
         'account_voucher_ar.git@%s#egg=trytonar_account_voucher_ar-%s' %
         (branch, series)),
     }
